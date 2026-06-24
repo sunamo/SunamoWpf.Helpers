@@ -2051,7 +2051,7 @@
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
           "Microsoft.Windows.Compatibility": "10.0.8",
-          "SunamoWpf.SunamoUtils": "26.2.7.2",
+          "SunamoWpf.SunamoUtils": "26.6.21.1",
           "System.Management": "10.0.8"
         },
         "compile": {
@@ -2098,13 +2098,13 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Logging/26.2.7.2": {
+      "SunamoWpf.Logging/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.Extensions.Logging": "10.0.8",
           "SunamoWpf.Core": "26.6.21.1",
-          "SunamoWpf.SunamoUtils": "26.2.7.2"
+          "SunamoWpf.SunamoUtils": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Logging.dll": {}
@@ -2116,7 +2116,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.SunamoUtils/26.2.7.2": {
+      "SunamoWpf.SunamoUtils/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -3822,12 +3822,12 @@
       "path": "../../SunamoWpf.Extensions/SunamoWpf.Extensions/SunamoWpf.Extensions.csproj",
       "msbuildProject": "../../SunamoWpf.Extensions/SunamoWpf.Extensions/SunamoWpf.Extensions.csproj"
     },
-    "SunamoWpf.Logging/26.2.7.2": {
+    "SunamoWpf.Logging/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Logging/SunamoWpf.Logging/SunamoWpf.Logging.csproj",
       "msbuildProject": "../../SunamoWpf.Logging/SunamoWpf.Logging/SunamoWpf.Logging.csproj"
     },
-    "SunamoWpf.SunamoUtils/26.2.7.2": {
+    "SunamoWpf.SunamoUtils/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils.csproj",
       "msbuildProject": "../../SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils/SunamoWpf.SunamoUtils.csproj"
@@ -3843,8 +3843,8 @@
       "SunamoWpf.Core >= 26.6.21.1",
       "SunamoWpf.Data >= 26.6.21.1",
       "SunamoWpf.Extensions >= 26.6.21.1",
-      "SunamoWpf.Logging >= 26.2.7.2",
-      "SunamoWpf.SunamoUtils >= 26.2.7.2",
+      "SunamoWpf.Logging >= 26.6.21.1",
+      "SunamoWpf.SunamoUtils >= 26.6.21.1",
       "System.Management >= 10.0.8",
       "TextCopy >= 6.2.1"
     ]
@@ -3905,6 +3905,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
         "warnAsError": [
           "NU1605"
         ]
