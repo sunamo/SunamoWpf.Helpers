@@ -5,8 +5,6 @@ namespace SunamoWpf.Helpers.ControlsWithGet;
 /// </summary>
 public partial class ComboBoxHelper
 {
-    bool tagy = true;
-
     public static void AddRange2List(ComboBox cbInterpret, IList allInterprets)
     {
         for (int i = 0; i < allInterprets.Count; i++)

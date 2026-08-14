@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class CreateImageForSizeShared
 {
 

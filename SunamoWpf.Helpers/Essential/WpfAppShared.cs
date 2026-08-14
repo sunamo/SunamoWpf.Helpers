@@ -1,5 +1,6 @@
 namespace SunamoWpf.Essential;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public partial class WpfApp
 {
     /// <summary>
@@ -274,8 +275,6 @@ public partial class WpfApp
 
             return false;
         }
-
-        return false;
     }
 
     /// <summary>

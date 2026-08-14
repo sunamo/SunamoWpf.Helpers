@@ -100,7 +100,6 @@ public partial class GridHelper
         {
             //var v = ControlFinder.FindControlExclude<UIElement>(item);
             result.Add((T)item);
-            int i = 0;
         }
 
         return result;

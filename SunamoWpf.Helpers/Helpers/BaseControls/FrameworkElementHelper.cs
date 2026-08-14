@@ -50,7 +50,6 @@ public partial class FrameworkElementHelper
     {
         T casted = default(T);
         //var casted2 = o as T;
-        ScrollViewer sw;
         while (EqualityComparer<T>.Default.Equals(casted, default(T)))
         {
             if (o.Parent == null)

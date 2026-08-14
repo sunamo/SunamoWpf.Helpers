@@ -1,5 +1,6 @@
 namespace SunamoWpf.Helpers.Backend;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class TextBoxBackend : IKeysHandler, IShowSearchResults
 {
     static Type type = typeof(TextBoxBackend);

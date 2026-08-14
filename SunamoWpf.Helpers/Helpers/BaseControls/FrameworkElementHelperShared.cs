@@ -65,7 +65,6 @@ public partial class FrameworkElementHelper
     {
         Visual target = null;
         string fn = null;
-        UserControl uc = null;
 
         target = (Window)WpfApp.mp;
 
