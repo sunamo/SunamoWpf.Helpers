@@ -3,6 +3,7 @@ namespace SunamoWpf;
 /// <summary>
 ///     Not include in standard
 /// </summary>
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public partial class PH
 {
     public static bool IsAlreadyRunning()

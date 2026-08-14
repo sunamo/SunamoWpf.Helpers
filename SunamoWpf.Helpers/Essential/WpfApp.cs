@@ -21,17 +21,6 @@ public partial class WpfApp
     {
         reallyThrow = ThrowEx.reallyThrow2;
         ThrowEx.reallyThrow2 = false;
-        if (false)
-        {
-            try
-            {
-                MessageBox.Show(t);
-            }
-            catch (Exception ex)
-            {
-                //0x800401D0 (CLIPBRD_E_CANT_OPEN))
-            }
-        }
         if (WriteToStartupLogRelease != null)
         {
             WriteToStartupLogRelease(t);

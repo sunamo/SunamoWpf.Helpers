@@ -192,9 +192,6 @@ public partial class PicturesDesktop
         double paddingLeftRight = 0;
         double paddingTopBottom = 0;
         BitmapSource vr = null;
-        double ratioW = 0;
-        double ratioH = 0;
-        bool ts16 = false;
         if (!path.Contains("unplated"))
         {
             double newWidth = width * percentWidthIconOfImage / 100;
@@ -203,7 +200,6 @@ public partial class PicturesDesktop
             paddingTopBottom = (height - newHeight) / 2;
             if (path.Contains("targetsize-16"))
             {
-                ts16 = true;
                 //vr = PicturesShared.PlaceToCenterExactly(width, height, false, paddingLeftRight, paddingTopBottom, bi, ratioW, ratioH, true);
                 vr = PicturesDesktop.ImageResize(bi, width, height, /*PicturesSunamo.GetImageFormatsFromExtension(bi),*/ true);
                 vr = CreateBitmapSource(vr.PixelWidth, vr.PixelHeight, paddingLeftRight, paddingTopBottom, bi, vr, true);
@@ -396,7 +392,6 @@ public partial class PicturesDesktop
     /// <param name="imgsf"></param>
     public static BitmapSource ImageResize(string imageSource, double decodePixelWidth, double decodePixelHeight, /*double paddingLeftRight, double paddingTopBottom,*/  bool a2IsPixelWidth = false)
     {
-        double margin = 0;
         #region Zmenšuje načerno
         #endregion
         #region Při menších rozlišení zmenšuje špatně

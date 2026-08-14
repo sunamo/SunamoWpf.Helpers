@@ -1,5 +1,6 @@
 namespace SunamoWpf.Helpers.ControlsWithGet;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class TextBoxHelper
 {
     static Type type = typeof(TextBoxHelper);
@@ -149,7 +150,7 @@ public class TextBoxHelper
                  */
                 txt.SelectionStart = txt.GetCharacterIndexFromLineIndex(line);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return;
             }

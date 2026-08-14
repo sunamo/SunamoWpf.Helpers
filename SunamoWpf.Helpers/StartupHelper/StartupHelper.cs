@@ -1,5 +1,6 @@
 namespace SunamoWpf.StartupHelper;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class StartupHelper
 {
     static StopwatchHelper swOverall = new StopwatchHelper();
@@ -68,8 +69,6 @@ public class StartupHelper
         }
 
     }
-
-    static Application app = null;
 
     static List<string> loadedAssemblies = new List<string>();
 
