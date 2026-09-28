@@ -1,7 +1,17 @@
-namespace SunamoWpf.Extensions;
+namespace SunamoWpf;
 
 public static partial class TextBoxExtensions
 {
+    /// <summary>
+    /// Forwards to ValidationHelper.validated. Was missing here (TextBoxHelper.validated referenced it and failed to compile in Release);
+    /// mirrors the same forwarding property already present on ComboBoxExtensions/ListBoxExtensions/ListViewExtensions.
+    /// </summary>
+    public static bool validated
+    {
+        get => ValidationHelper.validated;
+        set => ValidationHelper.validated = value;
+    }
+
     public static void CreateTagIfNotExists(this TextBox txt)
     {
         if (txt.Tag == null )

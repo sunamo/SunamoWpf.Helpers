@@ -7,7 +7,7 @@
     <UseWPF>true</UseWPF>
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
     <Description>WPF helper classes extracted from SunamoWpf</Description>
-    <Version>26.6.21.1</Version>
+    <Version>26.9.28.4</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Helpers/</PackageProjectUrl>
@@ -25,7 +25,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
+    <PackageReleaseNotes>feat: add SunamoIcoHelper (migrated from sunamoWithoutDep.wpf/SunamoIco.wpf); fix missing TextBoxExtensions.validated forwarding property</PackageReleaseNotes>
     <NoWarn>CS0067;CA1416;CS8625;CS8603;CS8604;CS8600;CS8618;CS8602;CS8622;CS8601;CS8073</NoWarn>
   </PropertyGroup>
   <ItemGroup>
