@@ -64,3 +64,4 @@ global using System.Windows.Resources;
 global using System.Windows.Threading;
 global using ILogger = Microsoft.Extensions.Logging.ILogger;
 global using NullLogger = Microsoft.Extensions.Logging.Abstractions.NullLogger;
+global using SunamoWpf.StartupHelper;

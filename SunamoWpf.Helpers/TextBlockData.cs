@@ -1,4 +1,4 @@
-namespace SunamoWpf.Data;
+namespace SunamoWpf;
 
 public class TextBlockData
 {

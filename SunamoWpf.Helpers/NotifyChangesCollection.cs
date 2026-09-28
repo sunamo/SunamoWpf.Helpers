@@ -1,4 +1,4 @@
-namespace SunamoWpf.Collections;
+namespace SunamoWpf;
 
 /// <summary>
 /// This is only one implement IList
