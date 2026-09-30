@@ -5,8 +5,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>SunamoWpf</RootNamespace>
     <UseWPF>true</UseWPF>
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
-    <Description>WPF helper classes extracted from SunamoWpf</Description>
+    <Description>Merged into SunamoWpf.Core (flat packages, no cross-package references)</Description>
     <Version>26.9.29.7</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
@@ -26,22 +25,5 @@
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
     <PackageReleaseNotes>fix: rebuild aby balicek obsahoval NotifyChangesCollection</PackageReleaseNotes>
-    <NoWarn>CS0067;CA1416;CS8625;CS8603;CS8604;CS8600;CS8618;CS8602;CS8622;CS8601;CS8073</NoWarn>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="AvalonEdit" Version="6.3.1.120" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.8" />
-    <PackageReference Include="Microsoft.Management.Infrastructure" Version="3.0.0" />
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
-    <PackageReference Include="System.Management" Version="10.0.8" />
-    <PackageReference Include="TextCopy" Version="6.2.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont\SunamoWpf.AwesomeFont.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Core\SunamoWpf.Core\SunamoWpf.Core.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Data\SunamoWpf.Data\SunamoWpf.Data.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Extensions\SunamoWpf.Extensions\SunamoWpf.Extensions.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Logging\SunamoWpf.Logging\SunamoWpf.Logging.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.SunamoUtils\SunamoWpf.SunamoUtils\SunamoWpf.SunamoUtils.csproj" />
-  </ItemGroup>
 </Project>
